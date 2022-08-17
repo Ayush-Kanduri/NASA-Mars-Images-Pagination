@@ -1,0 +1,18 @@
+<form action="">
+	<input
+		id="sol"
+		type="number"
+		placeholder="Enter sol (max. 1000)"
+		min="1"
+		max="1000"
+	/>
+	<button id="submit">Get Image</button>
+</form>
+<div class="flex-around">
+	<button id="prev" disabled>Previous Page</button>
+	<button id="next" disabled>Next Page</button>
+</div>
+<div class="flex-text">
+	<h1></h1>
+</div>
+<div id="nasa-images" class="flex-center"><%- include('_images'); %></div>
