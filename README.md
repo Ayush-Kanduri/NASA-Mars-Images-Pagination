@@ -10,7 +10,8 @@
 This project uses the NASA API to fetch all the Mars Rover Images for a particular SOL. The fetched images are then shown in a Pagination Format where the user can navigate through the pages.
 
 -  This API Web App uses the Async-Await for the fetch() API calls.
--  It also implements a XHR AJAX API Call <b>Synchronously<b/> in the Proxy Server.
+-  It also implements an XHR AJAX API Call Synchronously in the Proxy Server.
+-  Synchronous XHR AJAX Call is just used for the demonstration purpose as a study case. It is never recommended as it causes lag. Always use Asynchronous Calls only.
 -  It uses a Backend Proxy Server to hide the API Key in the browser & to solve CORS Error.
    <br/>
    <br/>
